@@ -1,5 +1,5 @@
-var typed = new Typed('#element', {
-    strings: ['GRAPHIC DESIGNER','WEB DEVELOPER'],
+let typed = new Typed('#element', {
+    strings: [' MERN Developer', ' Web Developer'],
     typeSpeed: 50,
   });
   const sections = document.querySelectorAll("section");
