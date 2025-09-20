@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image" href="assets/me1-2.png" />
     <title>Sneha Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
@@ -12,7 +13,9 @@
 <body>
     <header>
         <nav>
-            <div class="left">Sneha's Portfolio</div>
+            <div class="left">
+                <img src="assets/me1-2.png" alt="Profile" class="profile-pic" width="50px"/>
+            </div>
             <div class="right">
                 <ul>
                     <li><a class="active" href="#home">Home</a></li>
@@ -28,7 +31,8 @@
             <div class="leftsection">
                 <h3>Hi I'm <span class="span-clr">SNEHA SINGH</span></h3>
                 <div>A passionate <span id="element"></span></div>
-                <button class="resume"><a href="https://drive.google.com/file/d/1Vz6megyZHRM7tiT-D0NYGlSkMT0Ryz1L/view?usp=sharing"
+                <button class="resume"><a
+                        href="https://drive.google.com/file/d/1B67tOWdWvTL9cxI9N2-dc3DAS47ruxa4/view?usp=drive_link"
                         target="_blank">Resume</a></button>
             </div>
             <div class="rightsection">
@@ -53,6 +57,7 @@
                             <li>Java</li>
                             <li>C/C++</li>
                             <li>JavaScript</li>
+                            <li>TypeScript</li>
                             <li>Python</li>
                         </ul>
                     </div>
@@ -75,7 +80,7 @@
                         <h2>Tools / Platforms</h2>
                         <ul>
                             <li>Git, GitHub</li>
-                            <li>MongoDB, SQL</li>
+                            <li>MongoDB, SQL, PostgreSQL</li>
                             <li>Postman</li>
                             <li>Vercel, Render</li>
                         </ul>
@@ -105,7 +110,7 @@
                             news model in 24 hrs</li>
                         <li>Participated in <b>NMIT HACKS Hackathon</b></li>
                         <li>Reached Final Round in <b>Quantum Hacks Code Storm</b> at NHCE</li>
-                        <li>Earned <b>100 Days LeetCode Badge</b></li>
+                        <li>Earned <b>200 Days LeetCode Badge</b></li>
                         <li><b>MongoDB Tutorial Certificate</b></li>
                     </ul>
                 </div>
@@ -135,6 +140,24 @@
                     </div>
                 </div>
 
+                <div class="project">
+                    <div class="project-image">
+                        <img src="assets/digital-wallet.png" alt="Digital Wallet">
+                    </div>
+                    <div class="project-text">
+                        <h2>Digital Wallet</h2>
+                        <p>
+                            A secure full-stack wallet application that allows users to sign up, sign in,
+                            update profiles, check balances, and transfer money in real-time with
+                            MongoDB transactions. Built with authentication, validation, and secure
+                            password hashing.
+                        </p>
+                        <p><b>Tech Stack:</b> Node.js, Express.js, MongoDB, Mongoose, Zod, JWT, Bcrypt, React.js</p>
+                        <a href="https://digital-wallet-amber.vercel.app/" target="_blank">Live Demo</a>
+                        |
+                        <a href="https://github.com/snehasingh-25/digitalWallet" target="_blank">GitHub</a>
+                    </div>
+                </div>
 
                 <!-- EventManagement -->
                 <div class="project">
@@ -183,8 +206,9 @@
                             A web application for managing employees with authentication, task assignment,
                             and performance tracking. Built with reusable components and modern React architecture.
                         </p>
-                        <p><b>Tech Stack:</b> React, Vite, Node.js, Express, MongoDB, CSS</p>
-                        <a href="https://snehasingh-25.github.io/Employee-Management-System/" target="_blank">Live Demo</a> |
+                        <p><b>Tech Stack:</b> React, Node.js, Express, MongoDB, CSS</p>
+                        <a href="https://snehasingh-25.github.io/Employee-Management-System/" target="_blank">Live
+                            Demo</a> |
                         <a href="https://github.com/snehasingh-25/Employee-Management-System" target="_blank">GitHub</a>
                     </div>
                 </div>
@@ -200,11 +224,12 @@
                             A real-time multiplayer game where players compete to grab a diamond when it appears.
                             Built with React and WebSockets for instant updates and Node.js for backend communication.
                         </p>
-                        <p><b>Tech Stack:</b> React, Vite, Node.js, Express, Socket.io, CSS</p>
+                        <p><b>Tech Stack:</b> React, Node.js, Express, Socket.io, CSS</p>
                         <a href="https://diamond-game-two.vercel.app/" target="_blank">Live Demo</a> |
                         <a href="https://github.com/snehasingh-25/DiamondGame" target="_blank">GitHub</a>
                     </div>
                 </div>
+                
 
                 <!-- Solar System -->
                 <div class="project">
@@ -223,7 +248,44 @@
                         <a href="https://github.com/snehasingh-25/SolarSystem" target="_blank">GitHub</a>
                     </div>
                 </div>
-
+                <div class="project">
+                    <div class="project-image">
+                        <img src="assets/kawaii-corner.png" alt="Kawaii Corner">
+                    </div>
+                    <div class="project-text">
+                        <h2>Kawaii Corner – Anime Discovery App</h2>
+                        <p>
+                            A responsive web application for exploring anime with search, filtering, and curated lists.
+                            Powered by the Jikan API (MyAnimeList unofficial API) and featuring rate-limited, optimized
+                            requests to fetch top anime and genre-based results.
+                        </p>
+                        <p><b>Tech Stack:</b> React.js, Axios, JavaScript (ES6), CSS, Jikan API</p>
+                        <a href="https://kawaii-corner.vercel.app/" target="_blank">Live Demo</a>
+                        |
+                        <a href="https://github.com/snehasingh-25/KawaiiCorner" target="_blank">GitHub</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-image">
+                        <img src="assets/scribbly.png" alt="Scribbly - Scribble Drawing App">
+                    </div>
+                    <div class="project-text">
+                        <h2>Scribbly – Scribble Drawing App</h2>
+                        <p>
+                            A lightweight drawing application built with React and HTML5 Canvas.
+                            Scribbly allows users to freely sketch on a canvas with smooth strokes,
+                            providing a fun and interactive experience directly in the browser.
+                        </p>
+                        <p>
+                            <b>Key Features:</b> Freehand drawing with mouse, adjustable line width and color
+                            (extensible), responsive canvas sizing, real-time rendering.
+                        </p>
+                        <p><b>Tech Stack:</b> React.js, HTML5 Canvas, JavaScript (ES6)</p>
+                        <a href="https://scribbly-sigma.vercel.app/" target="_blank">Live Demo</a>
+                        |
+                        <a href="https://github.com/snehasingh-25/Scribbly" target="_blank">GitHub</a>
+                    </div>
+                </div>
                 <!-- Mapty -->
                 <div class="project">
                     <div class="project-image">
@@ -235,7 +297,7 @@
                             A fitness tracking app where users log workouts (running/cycling) on a map using Leaflet.js.
                             Supports geolocation, markers, and performance metrics like pace and speed.
                         </p>
-                        <p><b>Tech Stack:</b> JavaScript (ES6), Leaflet.js, Geolocation API, HTML, CSS</p>
+                        <p><b>Tech Stack:</b> JavaScript, Leaflet.js, Geolocation API, HTML, CSS</p>
                         <a href="https://snehasingh-25.github.io/Mapty/" target="_blank">Live Demo</a> |
                         <a href="https://github.com/snehasingh-25/Mapty" target="_blank">GitHub</a>
                     </div>
@@ -269,7 +331,7 @@
                             A simple app to create, update, and delete notes with persistent storage in localStorage.
                             User-friendly design for personal note management.
                         </p>
-                        <p><b>Tech Stack:</b> HTML, CSS, JavaScript, LocalStorage</p>
+                        <p><b>Tech Stack:</b> Node.js, Express, HTML, CSS, JavaScript, LocalStorage</p>
                         <a href="https://notesapp-pink-three.vercel.app/" target="_blank">Live Demo</a> |
                         <a href="https://github.com/snehasingh-25/notesapp" target="_blank">GitHub</a>
                     </div>
